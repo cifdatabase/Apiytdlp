@@ -67,6 +67,13 @@ Backend FastAPI menyediakan beberapa endpoint API:
 - `GET /info/` : Ambil detail video, termasuk resolusi dan bitrate.
 - `GET /download/` : Unduh video dengan resolusi tertentu.
 - `GET /download/audio/` : Unduh audio dengan bitrate tertentu.
+- `Get /download/ytsub/` : unduh video YouTube dengan subtitle.
+- `Get /download/playlist/` : unduh video/audio yutube.
+- `Get /spotify/search`: cari lagu di spotify.
+- `Get /spotify/info` : dapatkan info track Spotify.
+- `Get /spotify/download/audio` : download audio Spotify.
+- `Get /spotify/download/playlist` : download playlist Spotify.
+
 
 ---
 
