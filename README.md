@@ -73,7 +73,8 @@ Backend FastAPI menyediakan beberapa endpoint API:
 - `Get /spotify/info` : dapatkan info track Spotify.
 - `Get /spotify/download/audio` : download audio Spotify.
 - `Get /spotify/download/playlist` : download playlist Spotify.
-
+- `Get /douyin` : unduh foto,video,audio douyin.
+- `Get /stats` : info server dan lain lain
 
 ---
 
@@ -88,3 +89,10 @@ Backend FastAPI menyediakan beberapa endpoint API:
 **M. Nauval Sayyid Abdillah**  
 Sains Data UNESA 2024F  
 NIM 24013554092
+
+### Apa yang baru kali ini?
+- penambahan endpoint douyin
+- penambahan endpoint stats
+- pengoptimalan pada endpoint /download
+- pengoptimalan pada endpoint /download/audio
+- penambahan auto blokir ip ketika lebih dari 35request/menit
